@@ -100,3 +100,16 @@ img {
     font-size: .7rem;
     text-transform: uppercase;
 }
+
+@media (max-width: 728px) {
+    .time {
+        width: 95%;
+    }
+    .time__wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+    .col {
+        width: 100%;
+    }
+}
